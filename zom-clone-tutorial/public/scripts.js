@@ -2,8 +2,9 @@
 const socket = io('/');
 
 const myPeer = new Peer(undefined, {
-    host: '/',  // root host
-    port: '3001'
+    host: 'rtc-peerjs-server.uc.r.appspot.com',  // cloud host
+    // host: '/',  // root host
+    // port: '3001'
 })
 
 
